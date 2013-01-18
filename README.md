@@ -17,3 +17,16 @@ Delete the `.git` folder and initialize a new repo:
     git init .
 
 Have fun!
+
+
+To use the template activate a virtual environment:
+
+    mkvirtualenv mypackage-name
+
+Install all the requirements:
+
+    pip install -r requirements.txt
+
+At this point app.py should work:
+
+    python mypackage-name/app.py
