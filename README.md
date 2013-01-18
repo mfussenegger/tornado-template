@@ -6,7 +6,7 @@ Tornado template with Jinja2 and Sqlalchemy
 ## Requirements
 
  * [Git](http://git-scm.com/)
- * [Python](http://python.org/) >= 3.2
+ * [Python](http://python.org/) version 3.3
  * [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/)
 
 ## Usage
