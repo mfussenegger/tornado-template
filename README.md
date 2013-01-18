@@ -3,30 +3,30 @@ tornado-template
 
 Tornado template with Jinja2 and Sqlalchemy
 
-To get quickly up and running clone this repo:
-    
+## Requirements
+
+ * [Git](http://git-scm.com/)
+ * [Python](http://python.org/) >= 3.2
+ * [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/)
+
+## Usage
+
+Clone the repo:
+
     git clone https://github.com/mfussenegger/tornado-template.git
 
-Rename SITENAME to something more useful:
+Initialize the template by using:
 
-    ./bootstrap.sh mypackage-name
+    ./bootstrap.sh your-package-name
 
-Delete the `.git` folder and initialize a new repo:
+This will execute the following steps:
 
-    rm -rf .git
-    git init .
+ * Rename SITENAME to your-package-name
+ * Create a virtual environment called your-package-name
+ * Remove .git
+ * Initialize a new git repo
+ * Install all requirements inside the virtual environment
 
-Have fun!
+### Have fun!
 
-
-To use the template activate a virtual environment:
-
-    mkvirtualenv mypackage-name
-
-Install all the requirements:
-
-    pip install -r requirements.txt
-
-At this point app.py should work:
-
-    python mypackage-name/app.py
+    python your-package-name/app.py
