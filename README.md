@@ -29,4 +29,5 @@ This will execute the following steps:
 
 ### Have fun!
 
+    workon your-package-name
     python your-package-name/app.py
