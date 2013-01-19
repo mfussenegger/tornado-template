@@ -20,3 +20,8 @@ fi
 
 rm -rf .git
 git init .
+
+cd ../
+mv tornado-template ${1^}
+cd ${1^}
+rm bootstrap.sh

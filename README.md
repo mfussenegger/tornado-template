@@ -24,8 +24,10 @@ This will execute the following steps:
  * Rename SITENAME to your-package-name
  * Create a virtual environment called your-package-name
  * Install all requirements inside the virtual environment
- * Remove .git
+ * rm -rf .git
  * Initialize a new git repo
+ * Rename template-tornado to Your-package-name
+ * Delete bootstrap.sh
 
 ### Have fun!
 
